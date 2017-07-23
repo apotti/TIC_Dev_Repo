@@ -237,14 +237,14 @@
     <elementParameter field="TABLE" name="INTABLE">
       <elementValue elementRef="key" value="&quot;parameter_database&quot;"/>
       <elementValue elementRef="value" value="&quot;edw&quot;"/>
-      <elementValue elementRef="key" value=""/>
-      <elementValue elementRef="value" value=""/>
-      <elementValue elementRef="key" value=""/>
-      <elementValue elementRef="value" value=""/>
-      <elementValue elementRef="key" value=""/>
-      <elementValue elementRef="value" value=""/>
-      <elementValue elementRef="key" value=""/>
-      <elementValue elementRef="value" value=""/>
+      <elementValue elementRef="key" value="&quot;parameter_host&quot;"/>
+      <elementValue elementRef="value" value="&quot;localhost&quot;"/>
+      <elementValue elementRef="key" value="&quot;parameter_port&quot;"/>
+      <elementValue elementRef="value" value="&quot;3306&quot;"/>
+      <elementValue elementRef="key" value="&quot;parameter_username&quot;"/>
+      <elementValue elementRef="value" value="&quot;root&quot;"/>
+      <elementValue elementRef="key" value="&quot;parameter_password&quot;"/>
+      <elementValue elementRef="value" value="&quot;Ter4Lyte&quot;"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
