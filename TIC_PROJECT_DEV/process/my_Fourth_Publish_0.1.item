@@ -2,10 +2,10 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="parameter_database" prompt="parameter_database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="parameter_host" prompt="parameter_host?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="parameter_port" prompt="parameter_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="parameter_username" prompt="parameter_username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="parameter_password" prompt="parameter_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="parameter_host" prompt="parameter_host?" promptNeeded="false" type="id_String" value="&quot;localhost&quot;"/>
+    <contextParameter comment="" name="parameter_port" prompt="parameter_port?" promptNeeded="false" type="id_String" value="&quot;3306&quot;"/>
+    <contextParameter comment="" name="parameter_username" prompt="parameter_username?" promptNeeded="false" type="id_String" value="&quot;root&quot;"/>
+    <contextParameter comment="" name="parameter_password" prompt="parameter_password?" promptNeeded="false" type="id_String" value="'Ter4Lyte&quot;"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
