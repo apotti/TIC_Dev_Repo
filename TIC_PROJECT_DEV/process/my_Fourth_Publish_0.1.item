@@ -228,23 +228,23 @@
     <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
     <elementParameter field="RADIO" name="USE_SINGLEMODE" value="false"/>
     <elementParameter field="TABLE" name="VALUES" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="Key"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="key"/>
       <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Value"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="value"/>
       <elementValue elementRef="VALUE" value=""/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="true"/>
     <elementParameter field="TABLE" name="INTABLE">
-      <elementValue elementRef="Key" value="&quot;parameter_database&quot;"/>
-      <elementValue elementRef="Value" value="&quot;edw&quot;"/>
-      <elementValue elementRef="Key" value="&quot;parameter_host&quot;"/>
-      <elementValue elementRef="Value" value="&quot;localhost&quot;"/>
-      <elementValue elementRef="Key" value="&quot;parameter_port&quot;"/>
-      <elementValue elementRef="Value" value="&quot;3306&quot;"/>
-      <elementValue elementRef="Key" value="&quot;parameter_username&quot;"/>
-      <elementValue elementRef="Value" value="&quot;root&quot;"/>
-      <elementValue elementRef="Key" value="&quot;parameter_password&quot;"/>
-      <elementValue elementRef="Value" value="&quot;Ter4Lyte&quot;"/>
+      <elementValue elementRef="key" value="&quot;parameter_database&quot;"/>
+      <elementValue elementRef="value" value="&quot;edw&quot;"/>
+      <elementValue elementRef="key" value=""/>
+      <elementValue elementRef="value" value=""/>
+      <elementValue elementRef="key" value=""/>
+      <elementValue elementRef="value" value=""/>
+      <elementValue elementRef="key" value=""/>
+      <elementValue elementRef="value" value=""/>
+      <elementValue elementRef="key" value=""/>
+      <elementValue elementRef="value" value=""/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
@@ -252,8 +252,8 @@
     <elementParameter field="MEMO" name="INLINECONTENT" value="" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFixedFlowInput_2">
-      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="vaue" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="255" name="key" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="255" name="value" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tContextLoad" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="96">
@@ -276,6 +276,11 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tFixedFlowInput_2" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_2" target="tContextLoad_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="value"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
   </connection>
