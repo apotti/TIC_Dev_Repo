@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="Connection_SFDC_apiVersion" prompt="Connection_SFDC_apiVersion?" promptNeeded="false" repositoryContextId="_wsCMUHCbEeeCaI952WFjTg" type="id_String" value="39.0"/>
-    <contextParameter comment="" name="Connection_SFDC_clientId" prompt="Connection_SFDC_clientId?" promptNeeded="false" repositoryContextId="_wsCMUHCbEeeCaI952WFjTg" type="id_String" value=""/>
-    <contextParameter comment="" name="Connection_SFDC_endpoint" prompt="Connection_SFDC_endpoint?" promptNeeded="false" repositoryContextId="_wsCMUHCbEeeCaI952WFjTg" type="id_String" value="https://www.salesforce.com/services/Soap/u/39.0"/>
-    <contextParameter comment="" name="Connection_SFDC_oauth_callbackHost" prompt="Connection_SFDC_oauth_callbackHost?" promptNeeded="false" repositoryContextId="_wsCMUHCbEeeCaI952WFjTg" type="id_String" value=""/>
-    <contextParameter comment="" name="Connection_SFDC_oauth_callbackPort" prompt="Connection_SFDC_oauth_callbackPort?" promptNeeded="false" repositoryContextId="_wsCMUHCbEeeCaI952WFjTg" type="id_Integer" value=""/>
-    <contextParameter comment="" name="Connection_SFDC_oauth_clientId" prompt="Connection_SFDC_oauth_clientId?" promptNeeded="false" repositoryContextId="_wsCMUHCbEeeCaI952WFjTg" type="id_String" value=""/>
-    <contextParameter comment="" name="Connection_SFDC_oauth_clientSecret" prompt="Connection_SFDC_oauth_clientSecret?" promptNeeded="false" repositoryContextId="_wsCMUHCbEeeCaI952WFjTg" type="id_Password" value=""/>
-    <contextParameter comment="" name="Connection_SFDC_oauth_tokenFile" prompt="Connection_SFDC_oauth_tokenFile?" promptNeeded="false" repositoryContextId="_wsCMUHCbEeeCaI952WFjTg" type="id_String" value=""/>
-    <contextParameter comment="" name="Connection_SFDC_proxy_host" prompt="Connection_SFDC_proxy_host?" promptNeeded="false" repositoryContextId="_wsCMUHCbEeeCaI952WFjTg" type="id_String" value=""/>
-    <contextParameter comment="" name="Connection_SFDC_proxy_port" prompt="Connection_SFDC_proxy_port?" promptNeeded="false" repositoryContextId="_wsCMUHCbEeeCaI952WFjTg" type="id_Integer" value=""/>
-    <contextParameter comment="" name="Connection_SFDC_proxy_userPassword_password" prompt="Connection_SFDC_proxy_userPassword_password?" promptNeeded="false" repositoryContextId="_wsCMUHCbEeeCaI952WFjTg" type="id_Password" value=""/>
-    <contextParameter comment="" name="Connection_SFDC_proxy_userPassword_userId" prompt="Connection_SFDC_proxy_userPassword_userId?" promptNeeded="false" repositoryContextId="_wsCMUHCbEeeCaI952WFjTg" type="id_String" value=""/>
-    <contextParameter comment="" name="Connection_SFDC_sessionDirectory" prompt="Connection_SFDC_sessionDirectory?" promptNeeded="false" repositoryContextId="_wsCMUHCbEeeCaI952WFjTg" type="id_String" value=""/>
-    <contextParameter comment="" name="Connection_SFDC_timeout" prompt="Connection_SFDC_timeout?" promptNeeded="false" repositoryContextId="_wsCMUHCbEeeCaI952WFjTg" type="id_Integer" value="60000"/>
-    <contextParameter comment="" name="Connection_SFDC_userPassword_password" prompt="Connection_SFDC_userPassword_password?" promptNeeded="false" repositoryContextId="_wsCMUHCbEeeCaI952WFjTg" type="id_Password" value="GPhw73dcaZVPGDkncSWXMg=="/>
-    <contextParameter comment="" name="Connection_SFDC_userPassword_securityKey" prompt="Connection_SFDC_userPassword_securityKey?" promptNeeded="false" repositoryContextId="_wsCMUHCbEeeCaI952WFjTg" type="id_Password" value="7PobqewGhw1YFIoefijA+jTDv66LypJuBca4yjyXpf4="/>
-    <contextParameter comment="" name="Connection_SFDC_userPassword_userId" prompt="Connection_SFDC_userPassword_userId?" promptNeeded="false" repositoryContextId="_wsCMUHCbEeeCaI952WFjTg" type="id_String" value="avinash.madhavan@gmail.com"/>
+    <contextParameter comment="" name="Connection_SFDC_userPassword_userId" prompt="Connection_SFDC_userPassword_userId?" promptNeeded="true" type="id_String" value=""/>
+    <contextParameter comment="" name="Connection_SFDC_userPassword_password" prompt="Connection_SFDC_userPassword_password?" promptNeeded="true" type="id_String" value=""/>
+    <contextParameter comment="" name="Connection_SFDC_userPassword_securityKey" prompt="Connection_SFDC_userPassword_securityKey?" promptNeeded="true" type="id_String" value=""/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
