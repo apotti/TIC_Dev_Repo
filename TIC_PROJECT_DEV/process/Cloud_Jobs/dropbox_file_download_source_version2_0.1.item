@@ -2,7 +2,7 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="parameter_file_path" prompt="parameter_file_path?" promptNeeded="true" type="id_String" value=""/>
-    <contextParameter comment="" name="connection_dropbox_access_token" prompt="connection_dropbox_access_token?" promptNeeded="true" type="id_String" value=""/>
+    <contextParameter comment="" name="dropbox_access_token" prompt="dropbox_access_token?" promptNeeded="true" type="id_String" value=""/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -112,7 +112,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDropboxGet_1" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="ACCESS_TOKEN" value="context.connection_dropbox_access_token"/>
+    <elementParameter field="TEXT" name="ACCESS_TOKEN" value="context.dropbox_access_token"/>
     <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
     <elementParameter field="TEXT" name="PROXY_HOST" value="&quot;127.0.0.1&quot;" show="false"/>
     <elementParameter field="TEXT" name="PROXY_PORT" value="8087" show="false"/>
