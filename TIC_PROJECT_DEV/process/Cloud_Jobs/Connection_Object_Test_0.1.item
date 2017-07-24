@@ -112,11 +112,11 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDropboxGet_1" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="ACCESS_TOKEN" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="ACCESS_TOKEN" value="context.connection_dropbox_access_token"/>
     <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
     <elementParameter field="TEXT" name="PROXY_HOST" value="&quot;127.0.0.1&quot;" show="false"/>
     <elementParameter field="TEXT" name="PROXY_PORT" value="8087" show="false"/>
-    <elementParameter field="TEXT" name="PATH" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PATH" value="context.parameter_file_path"/>
     <elementParameter field="CHECK" name="STORE_TO_LOCAL" value="false"/>
     <elementParameter field="FILE" name="OUTPUT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
