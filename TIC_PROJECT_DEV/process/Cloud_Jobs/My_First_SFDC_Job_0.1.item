@@ -105,7 +105,7 @@
     <routinesParameter id="_gTUbYGwPEeeYz_0yETKVDg" name="TalendStringUtil"/>
     <routinesParameter id="_gTMfkGwPEeeYz_0yETKVDg" name="TalendString"/>
   </parameters>
-  <node componentName="tSalesforceInput" componentVersion="0.19.2" offsetLabelX="0" offsetLabelY="0" posX="192" posY="352">
+  <node componentName="tSalesforceInput" componentVersion="0.19.2" offsetLabelX="0" offsetLabelY="0" posX="128" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSalesforceInput_1" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_qjNZQHBhEeeCaI952WFjTg" show="false"/>
@@ -193,7 +193,7 @@
       </column>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="320">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
