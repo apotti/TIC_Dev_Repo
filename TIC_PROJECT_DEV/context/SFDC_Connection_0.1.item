@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_I2PbcHB5EeeCaI952WFjTg" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_I2PbcXB5EeeCaI952WFjTg" comment="" name="SFDC_Connection_oauth_tokenFile" prompt="SFDC_Connection_oauth_tokenFile?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_I2PbcnB5EeeCaI952WFjTg" comment="" name="SFDC_Connection_oauth_clientSecret" prompt="SFDC_Connection_oauth_clientSecret?" promptNeeded="false" type="id_Password" value=""/>
+  <contextParameter xmi:id="_I2Pbc3B5EeeCaI952WFjTg" comment="" name="SFDC_Connection_userPassword_securityKey" prompt="SFDC_Connection_userPassword_securityKey?" promptNeeded="false" type="id_Password" value="1phX6AnhD51jEaWdDlrOpWnyxR/cuAXbZoIW+gER9LI="/>
+  <contextParameter xmi:id="_I2PbdHB5EeeCaI952WFjTg" comment="" name="SFDC_Connection_timeout" prompt="SFDC_Connection_timeout?" promptNeeded="false" type="id_Integer" value="60000"/>
+  <contextParameter xmi:id="_I2PbdXB5EeeCaI952WFjTg" comment="" name="SFDC_Connection_proxy_host" prompt="SFDC_Connection_proxy_host?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_I2PbdnB5EeeCaI952WFjTg" comment="" name="SFDC_Connection_userPassword_userId" prompt="SFDC_Connection_userPassword_userId?" promptNeeded="false" type="id_String" value="avinash.madhavan@gmail.com"/>
+  <contextParameter xmi:id="_I2Pbd3B5EeeCaI952WFjTg" comment="" name="SFDC_Connection_userPassword_password" prompt="SFDC_Connection_userPassword_password?" promptNeeded="false" type="id_Password" value="GPhw73dcaZVPGDkncSWXMg=="/>
+  <contextParameter xmi:id="_I2PbeHB5EeeCaI952WFjTg" comment="" name="SFDC_Connection_oauth_callbackHost" prompt="SFDC_Connection_oauth_callbackHost?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_I2PbeXB5EeeCaI952WFjTg" comment="" name="SFDC_Connection_oauth_clientId" prompt="SFDC_Connection_oauth_clientId?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_I2PbenB5EeeCaI952WFjTg" comment="" name="SFDC_Connection_proxy_userPassword_password" prompt="SFDC_Connection_proxy_userPassword_password?" promptNeeded="false" type="id_Password" value=""/>
+  <contextParameter xmi:id="_I2Pbe3B5EeeCaI952WFjTg" comment="" name="SFDC_Connection_proxy_port" prompt="SFDC_Connection_proxy_port?" promptNeeded="false" type="id_Integer" value=""/>
+  <contextParameter xmi:id="_I2PbfHB5EeeCaI952WFjTg" comment="" name="SFDC_Connection_endpoint" prompt="SFDC_Connection_endpoint?" promptNeeded="false" type="id_String" value="https://www.salesforce.com/services/Soap/u/39.0"/>
+  <contextParameter xmi:id="_I2PbfXB5EeeCaI952WFjTg" comment="" name="SFDC_Connection_proxy_userPassword_userId" prompt="SFDC_Connection_proxy_userPassword_userId?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_I2PbfnB5EeeCaI952WFjTg" comment="" name="SFDC_Connection_oauth_callbackPort" prompt="SFDC_Connection_oauth_callbackPort?" promptNeeded="false" type="id_Integer" value=""/>
+  <contextParameter xmi:id="_I2Pbf3B5EeeCaI952WFjTg" comment="" name="SFDC_Connection_sessionDirectory" prompt="SFDC_Connection_sessionDirectory?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_I2PbgHB5EeeCaI952WFjTg" comment="" name="SFDC_Connection_apiVersion" prompt="SFDC_Connection_apiVersion?" promptNeeded="false" type="id_String" value="39.0"/>
+  <contextParameter xmi:id="_I2PbgXB5EeeCaI952WFjTg" comment="" name="SFDC_Connection_clientId" prompt="SFDC_Connection_clientId?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>
