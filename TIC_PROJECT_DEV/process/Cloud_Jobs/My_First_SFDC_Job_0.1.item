@@ -133,7 +133,7 @@
       <column comment="" key="false" length="255" name="CustomerName" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="db_out">
         <mapperTableEntries name="CustomerName" expression="row1.Name " type="id_String"/>
