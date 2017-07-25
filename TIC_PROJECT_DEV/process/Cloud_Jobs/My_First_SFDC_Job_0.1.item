@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="parameter_SFDC_userPassword_userId" prompt="parameter_SFDC_userPassword_userId?" promptNeeded="false" type="id_String" value="&quot;avinash.madhavan@gmail.com&quot;"/>
-    <contextParameter comment="" name="parameter_userPassword_password" prompt="parameter_userPassword_password?" promptNeeded="false" type="id_String" value="&quot;sushavinu3&quot;"/>
-    <contextParameter comment="" name="parameter_SFDC_userPassword_securityKey" prompt="parameter_SFDC_userPassword_securityKey?" promptNeeded="false" type="id_String" value="&quot;ZL9rewafWYPZRgzchR9nN8uvy&quot;"/>
+    <contextParameter comment="" name="parameter_SFDC_userPassword_userId" prompt="parameter_SFDC_userPassword_userId?" promptNeeded="true" type="id_String" value="&quot;avinash.madhavan@gmail.com&quot;"/>
+    <contextParameter comment="" name="parameter_userPassword_password" prompt="parameter_userPassword_password?" promptNeeded="true" type="id_String" value="&quot;sushavinu3&quot;"/>
+    <contextParameter comment="" name="parameter_SFDC_userPassword_securityKey" prompt="parameter_SFDC_userPassword_securityKey?" promptNeeded="true" type="id_String" value="&quot;ZL9rewafWYPZRgzchR9nN8uvy&quot;"/>
   </context>
   <parameters>
     <elementParameter field="CHECK" name="LOG4J_RUN_ACTIVATE" value="true" show="false"/>
