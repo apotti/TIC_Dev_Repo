@@ -6,6 +6,8 @@
     <contextParameter comment="" name="parameter_SFDC_userPassword_securityKey" prompt="parameter_SFDC_userPassword_securityKey?" promptNeeded="false" type="id_String" value="&quot;ZL9rewafWYPZRgzchR9nN8uvy&quot;"/>
   </context>
   <parameters>
+    <elementParameter field="CHECK" name="LOG4J_RUN_ACTIVATE" value="true" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
